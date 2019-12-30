@@ -1,43 +1,42 @@
 ---
 label: Post
-is_partial: false
+hide_body: false
 fields:
-  - type: text
-    name: title
-    label: Title
-    description: The title of the post.
-    config:
-      required: true
-  - type: datetime
-    name: date
-    label: Date
-    description: The publish date of the post.
-    config:
-      required: true
-  - type: file
-    name: image
-    label: Featured Image
-    description: The featured image of the post.
-  - type: list
-    name: tags
-    label: Tags
-  - type: text
-    name: layout
-    label: Layout
-    hidden: true
-    default: post
-    config:
-      required: true
+- type: text
+  name: title
+  label: Title
+  description: The title of the post.
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: The publish date of the post.
+  config:
+    required: true
+- type: file
+  name: image
+  label: Featured Image
+  description: The featured image of the post.
+- type: list
+  name: tags
+  label: Tags
+- type: text
+  name: layout
+  label: Layout
+  hidden: true
+  default: post
+  config:
+    required: true
 pages:
-  - _posts/2018-05-29-welcome-to-jekyll.md
-  - _posts/2018-10-31-the-way-i-see-it-every-life-is-a-pile-of-good-things.md
-  - _posts/2018-11-05-in-my-experience-there-is-no-such-thing-as-luck.md
-  - _posts/2018-11-06-she-must-have-hidden-the-plans-in-the-escape-pod.md
-  - _posts/2018-11-07-now-she-is-my-only-link-to-finding-their-secret-base.md
-  - _posts/2018-11-08-escape-is-not-his-plan-i-must-face-him-alone.md
-  - _posts/2018-11-09-the-force-is-strong with this-one.i-have-you-now.md
-  - _posts/2018-11-10-partially-but-it-also obeys-your-commands.md
-  - >-
-    _posts/2018-11-11-the-last-time-i-felt-it-was-in-the-presence-of-my-old-master.md
-  - _posts/2018-11-12-all-ive-got-to-do-is pass as-an-ordinary-human.md
-  - _posts/2018-11-13-you-werent-on-any-mercy-mission-this-time.md
+- _posts/2018-05-29-welcome-to-jekyll.md
+- _posts/2018-10-31-the-way-i-see-it-every-life-is-a-pile-of-good-things.md
+- _posts/2018-11-05-in-my-experience-there-is-no-such-thing-as-luck.md
+- _posts/2018-11-06-she-must-have-hidden-the-plans-in-the-escape-pod.md
+- _posts/2018-11-07-now-she-is-my-only-link-to-finding-their-secret-base.md
+- _posts/2018-11-08-escape-is-not-his-plan-i-must-face-him-alone.md
+- _posts/2018-11-09-the-force-is-strong with this-one.i-have-you-now.md
+- _posts/2018-11-10-partially-but-it-also obeys-your-commands.md
+- _posts/2018-11-11-the-last-time-i-felt-it-was-in-the-presence-of-my-old-master.md
+- _posts/2018-11-12-all-ive-got-to-do-is pass as-an-ordinary-human.md
+- _posts/2018-11-13-you-werent-on-any-mercy-mission-this-time.md

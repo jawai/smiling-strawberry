@@ -1,165 +1,162 @@
 ---
 label: Global Site Config
 hide_body: true
-is_partial: false
 fields:
+- type: text
+  name: title
+  label: Site Title
+  description: The title displayed in the site header, title tag.
+- type: file
+  name: logo
+  label: Logo
+  description: The logo for the site.
+- type: text
+  name: description
+  label: Description
+  description: The default description displayed in meta tags.
+- type: text
+  name: baseurl
+  label: Baseurl
+  description: The subpath of your site, e.g. /blog, for generating urls.
+- type: text
+  name: url
+  label: Url
+  description: The base hostname & protocol for your site, e.g. http://example.com
+- type: field_group
+  name: author
+  label: Author Settings
+  fields:
   - type: text
-    name: title
-    label: Site Title
-    description: 'The title displayed in the site header, title tag.'
-  - type: file
-    name: logo
-    label: Logo
-    description: The logo for the site.
+    name: name
+    label: Author name
+    description: The name of the author.
   - type: text
-    name: description
-    label: Description
-    description: The default description displayed in meta tags.
-  - type: text
-    name: baseurl
-    label: Baseurl
-    description: 'The subpath of your site, e.g. /blog, for generating urls.'
-  - type: text
-    name: url
-    label: Url
-    description: 'The base hostname & protocol for your site, e.g. http://example.com'
+    name: bio
+    label: Bio
+    description: The short bio of the author.
+- type: text
+  name: twitter
+  label: Twitter
+  description: Your Twitter url.
+- type: text
+  name: facebook
+  label: Facebook
+  description: Your Facebook url.
+- type: text
+  name: dribbble
+  label: Dribbble
+  description: Your Dribbble url.
+- type: text
+  name: instagram
+  label: Instagram
+  description: Your Instagram url.
+- type: text
+  name: pinterest
+  label: Pinterest
+  description: Your Pinterest url.
+- type: text
+  name: email
+  label: Email address
+  description: Your email address.
+- type: boolean
+  name: hero
+  label: Enable hero section?
+  default: true
+- type: text
+  name: hero-title
+  label: Hero title
+  description: The title of the hero section.
+- type: text
+  name: hero-subtitle
+  label: Hero subtitle
+  description: The subtitle of the hero section.
+- type: file
+  name: hero-image
+  label: Hero image
+  description: The background image of the hero section.
+- type: file
+  name: footer-image
+  label: Footer image
+  description: The background image of the footer section.
+- type: text
+  name: disqus-identifier
+  label: Disqus shortname
+  description: Your shortname for Disqus Comments. For example, mr-brown.
+- type: text
+  name: google-analytics
+  label: Google Analytics
+  description: Your Google Analytics identifier. For example, UA-99631805-1.
+- type: text
+  name: mailchimp
+  label: Newsletter
+  description: Your MailChimp form identifier. For example, blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e.
+- type: text
+  name: markdown
+  label: The Markdown renderer.
+  hidden: true
+- type: text
+  name: permalink
+  label: Permalink
+  description: The global permalink.
+- type: list
+  name: plugins
+  label: Plugins
+  description: The list of plugins.
+- type: number
+  name: paginate
+  label: Paginate
+  description: The number of posts per page.
+- type: text
+  name: paginate_path
+  label: Pagination Path
+  description: The destination of the pagination pages.
+- type: field_group_list
+  name: defaults
+  label: Front Matter Defaults
+  description: The default front matter options.
+  fields:
   - type: field_group
-    name: author
-    label: Author Settings
+    name: scope
+    label: Scope
     fields:
-      - type: text
-        name: name
-        label: Author name
-        description: The name of the author.
-      - type: text
-        name: bio
-        label: Bio
-        description: The short bio of the author.
-  - type: text
-    name: twitter
-    label: Twitter
-    description: Your Twitter url.
-  - type: text
-    name: facebook
-    label: Facebook
-    description: Your Facebook url.
-  - type: text
-    name: dribbble
-    label: Dribbble
-    description: Your Dribbble url.
-  - type: text
-    name: instagram
-    label: Instagram
-    description: Your Instagram url.
-  - type: text
-    name: pinterest
-    label: Pinterest
-    description: Your Pinterest url.
-  - type: text
-    name: email
-    label: Email address
-    description: Your email address.
-  - type: boolean
-    name: hero
-    label: Enable hero section?
-    default: true
-  - type: text
-    name: hero-title
-    label: Hero title
-    description: The title of the hero section.
-  - type: text
-    name: hero-subtitle
-    label: Hero subtitle
-    description: The subtitle of the hero section.
-  - type: file
-    name: hero-image
-    label: Hero image
-    description: The background image of the hero section.
-  - type: file
-    name: footer-image
-    label: Footer image
-    description: The background image of the footer section.
-  - type: text
-    name: disqus-identifier
-    label: Disqus shortname
-    description: 'Your shortname for Disqus Comments. For example, mr-brown.'
-  - type: text
-    name: google-analytics
-    label: Google Analytics
-    description: 'Your Google Analytics identifier. For example, UA-99631805-1.'
-  - type: text
-    name: mailchimp
-    label: Newsletter
-    description: >-
-      Your MailChimp form identifier. For example,
-      blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e.
-  - type: text
-    name: markdown
-    label: The Markdown renderer.
-    hidden: true
-  - type: text
-    name: permalink
-    label: Permalink
-    description: The global permalink.
-  - type: list
-    name: plugins
-    label: Plugins
-    description: The list of plugins.
-  - type: number
-    name: paginate
-    label: Paginate
-    description: The number of posts per page.
-  - type: text
-    name: paginate_path
-    label: Pagination Path
-    description: The destination of the pagination pages.
-  - type: field_group_list
-    name: defaults
-    label: Front Matter Defaults
-    description: The default front matter options.
-    fields:
-      - type: field_group
-        name: scope
-        label: Scope
-        fields:
-          - type: text
-            name: path
-            label: Path
-            config:
-              required: true
-      - type: field_group
-        name: values
-        label: Values
-        fields:
-          - type: text
-            name: permalink
-            label: Permalink
-            config:
-              required: true
-  - type: text
-    name: tag_page_dir
-    label: Tag Page Directory
-    description: The destination of the tag page.
-  - type: text
-    name: tag_page_layout
-    label: Tag Page Layout
-    description: The tag page layout.
-  - type: text
-    name: tag_permalink_style
-    label: Tag Permalink Style
-    description: The tag permalink style.
-  - type: list
-    name: include
-    label: Include
-    description: Directories and/or files to include in the conversion.
+    - type: text
+      name: path
+      label: Path
+      config:
+        required: true
   - type: field_group
-    name: sass
-    label: Sass Configuration
-    hidden: true
+    name: values
+    label: Values
     fields:
-      - type: text
-        name: sass_dir
-        label: Sass Files Directory
-      - type: text
-        name: style
-        label: Sass Output Style
+    - type: text
+      name: permalink
+      label: Permalink
+      config:
+        required: true
+- type: text
+  name: tag_page_dir
+  label: Tag Page Directory
+  description: The destination of the tag page.
+- type: text
+  name: tag_page_layout
+  label: Tag Page Layout
+  description: The tag page layout.
+- type: text
+  name: tag_permalink_style
+  label: Tag Permalink Style
+  description: The tag permalink style.
+- type: list
+  name: include
+  label: Include
+  description: Directories and/or files to include in the conversion.
+- type: field_group
+  name: sass
+  label: Sass Configuration
+  hidden: true
+  fields:
+  - type: text
+    name: sass_dir
+    label: Sass Files Directory
+  - type: text
+    name: style
+    label: Sass Output Style
