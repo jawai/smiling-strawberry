@@ -1,0 +1,28 @@
+---
+label: Page
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the page.
+    config:
+      required: true
+  - type: text
+    name: permalink
+    label: Permalink
+    description: The permalink of the page.
+  - type: file
+    name: image
+    label: Featured Image
+    description: The featured image of the page.
+  - type: text
+    name: layout
+    label: Layout
+    hidden: true
+    default: page
+    config:
+      required: true
+pages:
+  - _pages/about.md
+  - _pages/styleguide.md
