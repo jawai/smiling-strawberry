@@ -10,7 +10,7 @@ fields:
   name: logo
   label: Logo
   description: The logo for the site.
-  default: "/images/me-50x50.jpg"
+  default: ''
 - type: text
   name: description
   label: Description
