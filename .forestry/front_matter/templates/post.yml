@@ -30,5 +30,4 @@ fields:
     required: true
 pages:
 - _posts/2018-05-29-welcome-to-jekyll.md
-- _posts/2018-11-09-the-force-is-strong with this-one.i-have-you-now.md
 - _posts/2018-11-11-the-last-time-i-felt-it-was-in-the-presence-of-my-old-master.md
