@@ -28,3 +28,5 @@ fields:
   default: post
   config:
     required: true
+pages:
+- _posts/website-2-0-refresh-for-2020.md
