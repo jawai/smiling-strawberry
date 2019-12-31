@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Website 2.0 - refresh for 2020
-date: 2020-01-01 05:00:00 +0000
+date: 2019-12-30 05:00:00 +0000
 image: "/images/first-post-pre-x450.png"
 tags: []
 
