@@ -16,10 +16,6 @@ I use a site generator (Jekyll) with a base theme to create this. Although my pr
 
 #### JAMstack - Focus on the JAM!!! Lovely, lovely, lovely JAM! YUM!
 
-JIt's all about Javascript, APIs, and Markup 
-
-![Description of JAM](/images/JAMstack.png "JAM from jasmstack.org")
-
 Straight from [https://jamstack.org/](https://jamstack.org/ "https://jamstack.org/")
 
 > You may have already seen or worked on a JAMstack site! They do not have to include _all_ attributes of JavaScript, APIs, and Markup. They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another \[static site generator\]([https://www.staticgen.com/]( "Website 2.0 - refresh"))... 
