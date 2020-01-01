@@ -12,7 +12,7 @@ The first post to any blog is always the trickiest as I find it sets the tone fo
 
 A lot of times, when I visit a person's website or blog, I like to think about what stack or technology it's built on. In addition, I wonder about the design, whether it's created by the same author of the articles and the owner of the site. Essentially the creation, design, and development piece. So I've decided to provide that in my first post here.
 
-I use a site generator (Jekyll) with a base theme to create this. Although my previous site was custom built by me for me, I've decided to use something that was created and designed by [_Artem Sheludko_](http://artemsheludko.com/ "Artem Shelduko website"). I like his work and this design is clean and suits my needs of wanting to focus on content. There are a few tweaks to the base design but it's essentially a copy of the original.
+I use a site generator (Jekyll) with a base theme to create this. Although my previous site was custom built by me for me, I've decided to use something that was created and designed by [Artem Sheludko](http://artemsheludko.com/ "Artem Shelduko website"). I like his work and this design is clean and suits my needs of wanting to focus on content. There are a few tweaks to the base design but it's essentially a copy of the original.
 
 #### JAMstack - Focus on the JAM!!! Lovely, lovely, lovely JAM! YUM!
 
