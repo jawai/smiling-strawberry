@@ -18,6 +18,6 @@ I use a site generator (Jekyll) with a base theme to create this. Although my pr
 
 Straight from [https://jamstack.org/](https://jamstack.org/ "https://jamstack.org/")
 
-> You may have already seen or worked on a JAMstack site! They do not have to include _all_ attributes of JavaScript, APIs, and Markup. They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another \[static site generator\]([https://www.staticgen.com/]( "Website 2.0 - refresh"))... 
+> You may have already seen or worked on a JAMstack site! They do not have to include _all_ attributes of JavaScript, APIs, and Markup. They might be built using by hand, or with Jekyll, Hugo, Nuxt, Next, Gatsby, or another \[static site generator\] [https://www.staticgen.com/]( "Website 2.0 - refresh"))...
 >
 > The thing that they all have in common is that they don’t depend on a web server.
