@@ -124,8 +124,10 @@ img,
 
 // Links
 a {
-  text-decoration: none;
-  color: $link-color;
+	color: #21e09e;
+	border: 0;
+	font-weight: normal;	
+	text-decoration: underline;
   transition: all .15s;
   
   &:hover {
