@@ -40,22 +40,6 @@ fields:
   label: Twitter
   description: Your Twitter url.
 - type: text
-  name: facebook
-  label: Facebook
-  description: Your Facebook url.
-- type: text
-  name: dribbble
-  label: Dribbble
-  description: Your Dribbble url.
-- type: text
-  name: instagram
-  label: Instagram
-  description: Your Instagram url.
-- type: text
-  name: pinterest
-  label: Pinterest
-  description: Your Pinterest url.
-- type: text
   name: email
   label: Email address
   description: Your email address.
