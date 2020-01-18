@@ -4,7 +4,7 @@ title: Website 2.0 - refresh for 2020
 date: 2020-01-18T05:00:00.000+00:00
 image: "/images/first-post-pre-x450.png"
 tags:
-- staticgen, firstpost, technogloy
+- Technology
 
 ---
 #### Re: First Contact - Site Background
