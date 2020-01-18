@@ -50,21 +50,17 @@ models:
         label: Twitter
         description: Your Twitter url.
       - type: string
+        name: linkedin
+        label: linkedin
+        description: Your Linkedin url.
+      - type: string
         name: facebook
         label: Facebook
         description: Your Facebook url.
       - type: string
-        name: dribbble
-        label: Dribbble
-        description: Your Dribbble url.
-      - type: string
         name: instagram
         label: Instagram
         description: Your Instagram url.
-      - type: string
-        name: pinterest
-        label: Pinterest
-        description: Your Pinterest url.
       - type: string
         name: email
         label: Email address
